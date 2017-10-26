@@ -11,7 +11,7 @@ url: "http://yuziblog.top"
 # Comment
 comment:
     disqus: line13 of .yml
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    # uyan: 2143225  # 有言id,登录有言官网申请    // 有言已经关闭
 
 # Social
 social:
