@@ -8,10 +8,10 @@ avatarTitle: Post-Marxism
 avatarDesc: software on windows and Android
 url: "http://yuziblog.top"
 
-# Comment
-comment:
-    disqus: line13 of .yml
-    # uyan: 2143225  # 有言id,登录有言官网申请    // 有言已经关闭
+
+# Hypercomments
+hypercomments_id: 97025
+
 
 # Social
 social:
