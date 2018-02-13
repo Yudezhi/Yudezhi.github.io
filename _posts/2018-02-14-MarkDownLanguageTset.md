@@ -2,7 +2,7 @@
 layout: post
 title: "MarkDown 语言语法参考"
 date: 2018-02-13
-tags: 宗教 成长 心智
+tags: MarkDown
 ---
 
 # 复制来自：https://github.com/guodongxiaren/README/blob/master/README.md
