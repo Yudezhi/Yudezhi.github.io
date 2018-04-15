@@ -1,0 +1,99 @@
+进来在编程程序的时候，时常是思路有了，但是不知道怎么搭建起整个框架。比如最近的许多编程，就是需要对文件进行操作，再者就要对于文件中的某一行做一些操作，
+
+比如说寻找空格作为标记，求长度之类的事情。  思路很清楚，但是脑海中似乎很混乱，因为不知道使用什么方式读写文件，不知道各类方法的特点，还有就是对于一个
+
+字符串的操作，有些是直接有的库函数，而自己不知道，导致花费了很多时间自己去写去调试的一个小函数，就完成了一个很小的功能，感觉不值，也没有成就感。
+
+当然，还有比较经典的困难就是，有时候需要读入有空格的输入，有时候需要忽略回车，有时候又需要回车，那些获取输入的函数究竟有哪些细微 的产别，我希望在
+
+这篇文章中做一下总结，愚以为只要这个过关，自己的编程技术能够提升很大的一截，有时间在总结一波指针，那，最起码的简单的编程真的是只要有思路就可以
+
+写出来了。
+
+
+
+string 
+
+定义初始化：
+char charr1[20]；
+char  charr2[20] ="jaofi";
+
+string str1;
+string str2="cnosn";
+
+char  arr3[] ={"sdcds"};
+char  arr4[] {"csasc"};
+string str4 ={"dcscs"};
+string str5 {"csdcs"};
+
+
+复制：
+
+arr4 = arr3;   //  invalid
+str1=str2;  //valid
+
+
+拼接：
+
+str1+=str2;  //valid
+
+
+
+取特定字符：
+
+charr1[3];
+str2[3];
+
+相比于字符数组，string 可以自动的调整大小。
+
+
+
+在C++ 中，想使用C中的string函数，需要添加  ctring  (以前是  string.h)
+
+strcpy(arr1,arr2);  arr2 ->  arr1
+strcat(arr1,arr2);  arr1=arr1+arr2;
+
+
+
+strncat()
+
+strncpy()
+
+
+长度：
+
+int len1=str1.size();
+
+int len2 = strlen(charr1);
+
+
+
+
+
+getline():
+
+
+cin.getline(charr,20);
+//istream 类的一个方法
+//charr,接受输入，为目标数组
+//20  避免数组越界
+
+
+getline(cin,str);
+
+//不是istream的方法
+//cin   指出去哪里寻找输入，
+//str   动态存储
+
+getline (str,':');//str 存储 ，：  结束标记
+
+getline  具体见：C++ primer Plus  6th  edition [ch]   p 659
+
+
+
+更多关于string 的类的使用，见书中  附录  F 
+
+今天就先到这里吧，虽然这里没有写什么东西，但是在书上确实看了一些。
+
+下次有时间就更新关于文件读取的相关内容。
+
