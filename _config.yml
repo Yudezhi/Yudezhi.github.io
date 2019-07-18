@@ -50,8 +50,8 @@ blog_button:
 nav:
     - {title: 文章, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
-    - {title: 我, description: me, url: '/about'}
-    - {title: 尽头2, description: end, url: '/end'}
+    - {title: 我的, description: me, url: '/about'}
+    - {title: 尽头, description: end, url: '/end'}
     - {title: 影音, description:Vedios,url: '/share'}
 
 # Pagination
