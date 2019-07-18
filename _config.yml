@@ -50,9 +50,9 @@ blog_button:
 nav:
     - {title: 文章, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
-    - {title: 我的, description: my, url: '/about'}
+    - {title: 我, description: me, url: '/about'}
     - {title: 尽头, description: end, url: '/end'}
-    - {title: 影音, description: videos, url: '/share'}
+    - {title: 影音, description: Videos, url: '/share'}
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
